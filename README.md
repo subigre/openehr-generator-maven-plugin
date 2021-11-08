@@ -35,11 +35,11 @@ using [EHRbase openEHR SDK](https://github.com/ehrbase/openEHR_SDK).
 
 ## Configuration Parameters
 
-| Name | Default Value | Description |
-| --- | --- | --- |
-| `generateChoiceForSingleEvent` | `false` | Whether or not to generate `Choice` for a single `EVENT`. If `false` only `POINT_EVENT` will be generated. |
-| `generateNullFlavor` | `false` | Whether or not to generate null flavor fields. |
-| `optimizerSetting` | `NONE` | Defines if nodes which belong to an archetype and are single valued generate a new class. |
-| `optRoot` | `${basedir}/src/main/resources/opt` | The directory where templates are stored. |
-| `packageName` | | **Required** - The package under which the source files will be generated. |
-| `sourceRoot` | `${project.build.directory}/generated-sources/openehr` | The directory where the generated Java source files are created. |
+| Name | Description |
+| --- | --- |
+| `generateChoiceForSingleEvent` | Whether or not to generate `Choice` for a single `EVENT`. If `false` only `POINT_EVENT` will be generated.<br /> **Default value:** `false` |
+| `generateNullFlavor` | Whether or not to generate null flavor fields.<br /> **Default value:** `false` |
+| `optimizerSetting` | Defines if nodes which belong to an archetype and are single valued generate a new class.<br /> **Default value:** `NONE` |
+| `optRoot` | The directory where templates are stored.<br /> **Default value:** `${basedir}/src/main/resources/opt` |
+| `packageName` | **Required** - The package under which the source files will be generated. |
+| `sourceRoot` | The directory where the generated Java source files are created.<br /> **Default value:** ``${project.build.directory}/generated-sources/openehr`` |
