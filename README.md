@@ -1,4 +1,4 @@
-# openEHR Generator
+# openEHR Generator ![build](https://github.com/subigre/openehr-generator-maven-plugin/workflows/build/badge.svg) 
 
 Maven plugin which can generate Java code from OPT templates
 using [EHRbase openEHR SDK](https://github.com/ehrbase/openEHR_SDK).
